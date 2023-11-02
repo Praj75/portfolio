@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.hi{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none ;
+    padding: 10px 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-top: 15px;
+    padding-right: 6%;
+}
+
+.logo{
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    letter-spacing: 1px;
+}
+span{
+    color: rgb(17, 123, 123);
+}
+nav ul li a{
+    color: rgb(17, 123, 123);
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.btn{
+    color: rgb(17, 123, 123);
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+nav ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.content{
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+
+h2{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 00px;
+  margin-top: 10px;
+  top: 100px;
+}
+
+
+h3{
+    color: white;
+    margin: 22px 0px 22px;
+    font-size: 80px;
+    margin-top: -10px;
+    margin-left:  -4px;
+
+}
+
+h4{
+    color:rgb(227, 227, 227);
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.paper{
+    margin-top: 30px;
+}
+
+.paper form{
+    max-width: 100%;
+    position: relative;
+    width: 400px;
+}
+
+.paper form input:first-child{
+    width: 100%;
+    display: inline-block;
+    padding: 15px 135px 14px 20px;
+    border: 2px solid rgb(17, 123, 123);;
+    border-radius: 35px;
+    outline: none;
+}
+
+.paper form input:last-child{
+    background-color:  rgb(17, 123, 123);
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0px 0px 6px white;
+    right: 7px;
+    top: 7px;
+}
+.main{
+    width: -2000px;
+    height: 10px;
+    top: 10px;
+}
+
+.about-text p{
+    color: white;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.about{
+    padding: 100px 0px;
+    width: 100%;
+    background-color: rgb(17, 123, 123);
+    height: 1000px;
+}
+.about img{
+    width: 440px;
+    height: auto;
+}
+
+.about-text{
+    width: 550px;
+}
+
+
+.about-text h6{
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+
+.main{
+    max-width: 96%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+
+.about-text h5{
+    font-size: 30px;
+    color: brown;
+}
+
+button{
+    background-color: rgb(17, 123, 123);
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    transition: 0.4s;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+button:hover{
+    border: 2px solid brown;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.deta{
+    width: 100%;
+    background-color: rgb(226, 215, 215);
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    text-align: center;
+    width: 1140px;
+    font-size: 80px;
+    margin-left: 100px;
+}
+
+.box{
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
